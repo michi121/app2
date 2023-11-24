@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    tools:context=".ViewEntriesActivity">
+    >
+
+    <TextView
+        android:id="@+id/tvEntryDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnDeleteEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"/>
+
+    <Button
+        android:id="@+id/btnUpdateEntry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Details"/>
+
+</LinearLayout>
