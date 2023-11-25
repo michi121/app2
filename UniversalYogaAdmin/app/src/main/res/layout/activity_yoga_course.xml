@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- activity_yoga_course.xml -->
+<?xml version="1.0" encoding="utf-8"?><!-- activity_yoga_course.xml -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -14,7 +13,7 @@
         android:layout_height="wrap_content"
         android:hint="Day of the week"
         android:inputType="text"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="8dp" />
 
     <EditText
         android:id="@+id/editTextTime"
@@ -22,7 +21,7 @@
         android:layout_height="wrap_content"
         android:hint="Time of course"
         android:inputType="text"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="8dp" />
 
     <EditText
         android:id="@+id/editTextCapacity"
@@ -30,7 +29,7 @@
         android:layout_height="wrap_content"
         android:hint="Capacity"
         android:inputType="number"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="8dp" />
 
     <EditText
         android:id="@+id/editTextDuration"
@@ -38,7 +37,7 @@
         android:layout_height="wrap_content"
         android:hint="Duration"
         android:inputType="text"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="8dp" />
 
     <EditText
         android:id="@+id/editTextPrice"
@@ -46,7 +45,7 @@
         android:layout_height="wrap_content"
         android:hint="Price per class"
         android:inputType="text"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="8dp" />
 
     <EditText
         android:id="@+id/editTextType"
@@ -54,7 +53,7 @@
         android:layout_height="wrap_content"
         android:hint="Type of class"
         android:inputType="text"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="8dp" />
 
     <EditText
         android:id="@+id/editTextDescription"
@@ -62,12 +61,12 @@
         android:layout_height="wrap_content"
         android:hint="Description (optional)"
         android:inputType="text"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="8dp" />
 
     <Button
         android:id="@+id/buttonSubmit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Submit"/>
+        android:text="Submit" />
 
 </LinearLayout>
