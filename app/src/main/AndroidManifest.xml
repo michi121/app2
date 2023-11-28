@@ -21,6 +21,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".UpdateDetailsActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".PastEntries"
+            android:exported="false"/>
+
+        <activity
+            android:name=".ConfirmationActivity"
+            android:exported="false">
+
+
+
+        </activity>
     </application>
 
 </manifest>
